@@ -28,5 +28,25 @@
 // console.log(priceTag(-1))
 
 
+//q=14
 
+function mapCharAndSum(N,K,str) {
+    // Write code here
+  
+  let obj={};
+  let bag=0;
+for(let i=0;i<=25;i++){
+    obj[String.fromCharCode(97+i)]=(N+i) 
+}
 
+for(let i=0;i<K;i++){
+let charec=str[i]
+
+bag+=obj[charec]
+console.log(bag)
+}
+  
+      
+  }
+  
+mapCharAndSum(30,3,"z")  
